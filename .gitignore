@@ -1,0 +1,28 @@
+# compiling, cache
+__pycache__/
+.pytest_cache/
+*_cache/
+*.pyc
+
+
+# packaging
+dist/
+*.egg-info
+*.egg
+
+
+# enviroment
+.venv/
+
+
+# uv
+# uv.lock
+
+
+#ruff
+ruff.toml
+
+
+#pytest
+.coverage
+coverage.xml
