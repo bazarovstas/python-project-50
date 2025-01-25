@@ -1,21 +1,8 @@
-# install:
-# 	poetry install
+install:
+	uv sync
 
-# build:
-# 	poetry build
+build:
+	uv build
 
-# publish:
-# 	poetry publish --dry-run
-
-# package-install:
-# 	python -m pip install --user dist/*.whl
-
-# package-reinstall:
-# 	pip install --upgrade --force-reinstall dist/*.whl
-
-# lint:
-# 	poetry run flake8 brain_games
-
-# brain-games:
-# 	poetry run brain-games
-
+help:
+	uv run gendiff -h
