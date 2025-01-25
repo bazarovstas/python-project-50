@@ -1,4 +1,5 @@
+from gendiff.cli import parse_arguments
 
 
 def generate_a_difference():
-    print('There is a contact!')
+    return parse_arguments()
